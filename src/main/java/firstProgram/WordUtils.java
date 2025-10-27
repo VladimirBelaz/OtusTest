@@ -28,5 +28,6 @@ public class WordUtils {
         System.out.println("Ввод одного слова - " + WordUtils.reverseWords("word"));
         System.out.println("Ввод двух слов - " + WordUtils.reverseWords("два слова"));
         System.out.println("Ввод трех слов - " + WordUtils.reverseWords("три слова здарова"));
+        System.out.println("Ввод трех слов - " + WordUtils.reverseWords("четыре не слова здарова"));
     }
 }
