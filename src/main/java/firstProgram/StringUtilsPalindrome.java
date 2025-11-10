@@ -7,7 +7,6 @@ public class StringUtilsPalindrome {
         }
         // Оставляем только буквы и цифры, игнорируем спецсимволы, пробелы и т.д.
         String cleanedInput = input.replaceAll("[^a-zA-Zа-яА-Я0-9]", "").toLowerCase();
-
         // Проверяем пустую строку после очистки
         if (cleanedInput.isEmpty()) {
             return false;
@@ -26,7 +25,7 @@ public class StringUtilsPalindrome {
     }
 
     private StringUtilsPalindrome() {
-        // Приватный конструктор для утильного класса
+
     }
 
     public static void main(String[] args) {
