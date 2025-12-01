@@ -36,5 +36,6 @@ public class ReverseNumber {
         System.out.println("Expected 021 got " + reverseNumber(120));
         System.out.println("Expected 1 got " + reverseNumber(100));
         System.out.println("Expected -21 got " + reverseNumber(-120));
+        System.out.println("Expected 201 got " + reverseNumber(102));
     }
 }
